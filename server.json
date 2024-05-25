@@ -14,7 +14,7 @@
       "type": "outcome",
       "category": "Alimentação",
       "price": 50,
-      "createdAt": "2024-05-24T21:30:59.193Z"
+      "createdAt": "2024-05-24T22:30:59.193Z"
     },
     {
       "id": 3,
@@ -22,7 +22,23 @@
       "type": "income",
       "category": "Venda",
       "price": 2000,
-      "createdAt": "2024-05-24T21:30:59.193Z"
+      "createdAt": "2024-05-24T23:30:59.193Z"
+    },
+    {
+      "description": "Pastel",
+      "price": 5,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2024-05-25T13:36:59.413Z",
+      "id": 4
+    },
+    {
+      "description": "Iogurte",
+      "price": 4,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2024-05-25T13:38:07.683Z",
+      "id": 5
     }
   ]
 }
