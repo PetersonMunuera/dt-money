@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 12000,
+      "createdAt": "2024-05-24T21:53:59.193Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2024-05-24T21:30:59.193Z"
+    },
+    {
+      "id": 3,
+      "description": "Computador",
+      "type": "income",
+      "category": "Venda",
+      "price": 2000,
+      "createdAt": "2024-05-24T21:30:59.193Z"
+    }
+  ]
+}
