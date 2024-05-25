@@ -2,6 +2,8 @@ import { MagnifyingGlass } from "@phosphor-icons/react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useContext } from "react";
+import { TransactionsContext } from "../../../../contexts/TransactionsContext";
 import { SearchFormContainer } from "./styles";
 
 const searchFormSchema = z.object({
@@ -19,8 +21,10 @@ export function SearchForm() {
     resolver: zodResolver(searchFormSchema)
   })
 
-  function handleSearchTransactions(data: SearchInputs) {
-    console.log(data)
+  const { fetchTransactions } = useContext(TransactionsContext)
+
+  async function handleSearchTransactions(data: SearchInputs) {
+    await fetchTransactions(data.query)
   }
 
   return (
